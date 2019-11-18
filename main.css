@@ -1,5 +1,13 @@
+
+
 .fixbg{
-  position: fixed;
+  position:absolute;
+  max-width: 200%;
+  max-height: 200%;
+  margin:;
+  padding-right:15px;
+  padding-left: 15px;
+  /* position: absolute;
   z-index:-1000;
   min-width: 100%;
   min-height: 100%;
@@ -7,7 +15,7 @@
   right:0;
   left:0;
   top:0;
-  bottom:0;
+  bottom:0; */
 }
 #background{
   position: absolute;
@@ -23,7 +31,7 @@
 }
 
 h1 {
-  font-family: calibri,sans-serif;
+  font-family:calibri, sans-serif;
   font-size: 72px;
   text-align: center;
   color:#c2c2c2;
@@ -32,4 +40,18 @@ h1 {
 }
 body{
   margin:0;
+
+}
+.outline{
+  display: grid;
+  height: 100%;
+
+}
+.fitCenter{
+  position:absolute;
+  max-width: 120%;
+  max-height: 110%;
+  margin: 100px;
+  padding-right:15px;
+  padding-left: 0px;
 }
