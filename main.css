@@ -1,0 +1,35 @@
+.fixbg{
+  position: fixed;
+  z-index:-1000;
+  min-width: 100%;
+  min-height: 100%;
+  overflow:hidden;
+  right:0;
+  left:0;
+  top:0;
+  bottom:0;
+}
+#background{
+  position: absolute;
+  overflow: hidden;
+  top:0;
+  left:0
+  min-width: 100%;
+  min-height: 100%;
+
+}
+.content{
+  position:absolute;
+}
+
+h1 {
+  font-family: calibri,sans-serif;
+  font-size: 72px;
+  text-align: center;
+  color:#c2c2c2;
+  margin-top: 0;
+  background-image: radial-gradient(circle, black, white, red);
+}
+body{
+  margin:0;
+}
