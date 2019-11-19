@@ -1,36 +1,30 @@
 
 
 .fixbg{
-  position:absolute;
-  max-width: 200%;
-  max-height: 200%;
-  margin:;
+  position:fixed; 
+  width: 200%;
+  height: 25%;
   padding-right:15px;
   padding-left: 15px;
-  /* position: absolute;
   z-index:-1000;
-  min-width: 100%;
-  min-height: 100%;
-  overflow:hidden;
-  right:0;
-  left:0;
-  top:0;
-  bottom:0; */
+  display:grid;
+  grid-template-columns: (1)
+
 }
 #background{
-  position: absolute;
+  position: fixed;
   overflow: hidden;
   top:0;
-  left:0
-  min-width: 100%;
-  min-height: 100%;
+  left:0;
+
 
 }
 .content{
-  position:absolute;
+  position:fixed;
 }
 
 h1 {
+  overflow: hidden;
   font-family:calibri, sans-serif;
   font-size: 72px;
   text-align: center;
@@ -40,18 +34,6 @@ h1 {
 }
 body{
   margin:0;
+  background-color: #030303;s
 
-}
-.outline{
-  display: grid;
-  height: 100%;
-
-}
-.fitCenter{
-  position:absolute;
-  max-width: 120%;
-  max-height: 110%;
-  margin: 100px;
-  padding-right:15px;
-  padding-left: 0px;
 }
