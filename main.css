@@ -1,26 +1,13 @@
 
 
 .fixbg{
-  position:fixed; 
-  width: 200%;
-  height: 25%;
-  padding-right:15px;
-  padding-left: 15px;
-  z-index:-1000;
-  display:grid;
-  grid-template-columns: (1)
-
-}
-#background{
-  position: fixed;
-  overflow: hidden;
-  top:0;
-  left:0;
-
-
-}
-.content{
   position:fixed;
+  /* height: 26%;
+  padding-right:15px;
+  padding-left: 15px; */
+  z-index:-1;
+
+
 }
 
 h1 {
@@ -34,6 +21,39 @@ h1 {
 }
 body{
   margin:0;
-  background-color: #030303;s
+  background-color: #030303;
 
+}
+
+
+#background{
+  animation: fadeOut 16s;
+opacity:0;
+}
+@keyframes fadeOut {
+  from{
+  opacity:1;
+}
+to{
+  opacity:0;
+}
+
+}
+#pokemonGrid{
+  padding-left:558px;
+  padding-top:190px;
+  animation: fadeIn 13s;
+}
+@keyframes fadeIn {
+  from{
+  opacity:0;
+}
+to{
+  opacity:1;
+}
+
+}
+
+div >div > img{
+  height: 200px;
 }
