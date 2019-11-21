@@ -1,5 +1,4 @@
 
-
 .fixbg{
   position:fixed;
   /* height: 26%;
@@ -40,8 +39,9 @@ to{
 
 }
 #pokemonGrid{
-  padding-left:558px;
-  padding-top:190px;
+  position:fixed;
+  padding-left:520px;
+  padding-top:80px;
   animation: fadeIn 13s;
 }
 @keyframes fadeIn {
@@ -55,5 +55,11 @@ to{
 }
 
 div >div > img{
-  height: 200px;
+  height: 300px;
 }
+div> div> p{
+  padding-left:110px;
+  padding-top: 0px;
+}
+
+/*# sourceMappingURL=main.css.map */
