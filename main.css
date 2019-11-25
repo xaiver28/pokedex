@@ -1,9 +1,8 @@
 
 .fixbg{
   position:fixed;
-  /* height: 26%;
-  padding-right:15px;
-  padding-left: 15px; */
+   height: 100%;
+
   z-index:-1;
 
 
@@ -63,3 +62,79 @@ div> div> p{
 }
 
 /*# sourceMappingURL=main.css.map */
+body {
+    background-color: black;
+    color: red;
+    margin: 0;
+    font-family: sans-serif;
+	text-decoration:none;
+}
+h1 {
+  overflow: hidden;
+  font-family:calibri, sans-serif;
+  font-size: 72px;
+  text-align: center;
+  color:#c2c2c2;
+  margin-top: 0;
+  background-image: radial-gradient(circle, black, white, red);
+}
+
+.container {
+    padding: 25px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 54px;
+}
+
+#pokedex {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 40px;
+    padding-inline-start: 0;
+}
+
+.grid {
+    list-style: none;
+    padding: 40px;
+    background-color:red;
+    color: white;
+  text-align: center;
+}
+
+
+.pokemonName {
+    text-transform: capitalize;
+    margin-bottom: 0px;
+    font-size: 32px;
+    font-weight: normal;
+	color:white;
+}
+.Type {
+    margin-top: 5px;
+    color: white;
+
+}
+
+.pokemonImage {
+    height: 300px;
+}
+/* . fade{
+  opacity: 1;
+}
+
+.fade{
+animation: fadeIn 30s
+}
+@keyframes fadeIn{
+  from{
+    opacity:0;
+
+  }
+  to{
+    opacity:1;
+  }
+} */
